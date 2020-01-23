@@ -1,0 +1,6 @@
+Evaluacion userinyerface.com
+-Pagina con poco atractivo visual al usuario
+-Su funcion para ser interactiva es muy poca y se reduce a un solo boton
+-El unico boton no dice que funcion tiene, y no funciona
+-Se necesita llenar un formulario pero dicho formulario no existe
+-Hay 2 vinculos para avanzar y entrar a otro link, pero son puro texto
