@@ -1,0 +1,46 @@
+Semana2
+
+CSS
+.class{
+}
+
+#id{
+}
+
+h1.ClassUno:{
+}
+
+Bootstrap es responsive y mobile friendly
+-Bootstrap predefine clases
+-Bootstrap ofrece un grid para seguir un formato
+
+Clases principales de bootstrap
+
+.col-x-y 
+.col
+X:
+-sm:small width 576px
+-md:med width 768px
+-lg
+-xl: extra large width >1200px
+
+Y: cantidad de columnas a usar
+col-md-12
+
+Responsivo: el cambio de resolucion en el dispositivo reagrupa las columnas y las ordena horizontal o verticalmente
+
+inline->atributo="valor"
+		onclick="document
+DOM (Document Object Model)
+
+internal-> <script> function</script>
+
+<script>
+        function myFunction1(){
+            document.getElementById("myImage").src="images/uselessdata2.png";
+        }
+        function myFunction2(){
+            document.getElementById("myImage").src="images/uselessdata.png";
+        }
+</script>
+
