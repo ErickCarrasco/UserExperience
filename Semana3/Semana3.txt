@@ -1,0 +1,8 @@
+Bootstrap/Material es para presentacion
+React/Angular/Vue es para el modelo
+
+Los componentes de bootstrap son elementos de HTML ya listos
+
+NPM - Node package manager
+NPM is a node package manager. It is basically used for managing dependencies of various server side dependencies. 
+We can manages our server side dependencies manually as well but once our project's dependencies grow it becomes difficult to install and manage
