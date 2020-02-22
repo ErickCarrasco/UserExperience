@@ -1,0 +1,22 @@
+Calculadora + ELectron
+Vuex, Vue Router, Vue Server Side Render
+
+Transpilacion: llevar el codigo a html, css. y js ES5
+
+Si el codigo trae el package.json con npm install puede recrear todo el entorno
+
+Describir como funciona el vue
+-Index con un div y se inyecta el codigo de js
+
+Para enviar parametros entre componentes se utilizan los props
+
+Vuex engloba el ciclo de manejo del estado (actions->mutations(sucede el cambio
+de contenido)->state(datos como tal))
+
+Las rutas gestionan el historial de navegacion. Con las rutas se pueden mandar a paginas directas
+
+Lenguajes Lado del cliente: HTML, JS, CSS
+Transpilar -> traducir a un lenguaje estandar y compilarlo
+bootstrap -> facilita el uso de componentes CSS
+Material -> ofrece una extension de componentes de bootstrap o CSS
+Framework -> Aplicaciones tipo SPA(problemas con la reactividad), manipulacion del DOM

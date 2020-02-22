@@ -1,0 +1,124 @@
+npm miles de paquetes
+vue - Dependencias
+
+ES6
+Javascript 6, no todos los navegadores soportan ES6
+Transpiler: compilador y traductor. De un lenguaje a otro
+Babel->ES6 a ES5
+ESLint (Linter)
+Comprobar Sintaxis
+
+Funcion arrow
+=>
+var data
+data.forEach(elem=>	{
+	console.log(elem);
+});
+
+Javascript no tiene clases, sino prototipos
+
+Para examen:
+-Teoria (diferencias entre js, css, html)
+-Practica (desarrollos de trabajos de clase)
+
+Vue
+-Instalacion 
+npm install -g vue
+npm install -g @vue/cli
+
+vue create file
+
+package json
+-Metadatos
+npm install
+-Reconstruir el ambiente/entorno de la aplicacion
+gitignore
+-Ignora, no hace tracking de algunos datos 
+(node_modules) evita repetir codigos
+
+public
+-Favicon.ico (iconos de la pestaña de la pagina)
+-index.html (pagina principla)
+
+div es una division o contenedor en la pagina html
+
+src
+main.js el archivo que hace el trabajo
+App.vue
+
+render permite dibujar en el main.js. El render conecta la App.vue (renderizar)
+.$mount('#app') -> <div id="app"/>
+
+Con react, o algun framework el html es simple, con el div utilizamos ya lo que es el js con codigo inyectado.
+Inyectar componentes(nuevos elementos que contienen autocontenido).
+Componentes:
+-HTML
+-JS
+-Styles
+-+Componentes
+
+npm run serve
+
+JSX JS+XML
+
+Componentes VUE Principales:
+template->HTML + otros componentes
+script->ES6
+Style->css
+
+ES6:
+-Import
+-Export es la firma
+-Component
+-Props parametros que recibe
+
+Tarea:
+Agregar un nuevo componente al hello world de vue
+Vuetify
+
+Con Node.js el javascript puede quedar en el server app
+Node.js permite mayor seguridad, una sola base de codigo
+
+ODBC los datos necesarios para ese servidor. Se encuentra en el server app
+ORM codigo de acceso a datos
+
+Componentes
+-Template: un solo elemento raiz. Todo en un solo div
+-Scripts: definen el componente. Con un json, un export. Importar otros componentes(necesita en el html importar los componentes)
+	*Logica adicional
+
+Node: servidor de desarrollo para el cliente
+npm: Para el cliente. Dependencias
+
+http://localhost:8080
+IP local
+
+Los componentes:
+-Autocontenidos
+-Subcomponentes
+
+Los componentes pueden tener jerarquias
+Menu
+	-Sub menu
+		-Boton
+
+<div {{stuff}} <- variable(script)
+v-for="item in items"
+	ciclos for
+
+export: firma del componente
+props:{
+	param1: int,..
+},
+data:()=>{
+	trabajador:{}
+}//Estructura propia. Datos propios del componente
+,
+methods:{
+
+}//contiene todos los events del template (ej: onclick)
+
+Local storage-> att: valor
+IndexedDB-> mini SQL
+Almacenamiento
+Local( en el navegador)
