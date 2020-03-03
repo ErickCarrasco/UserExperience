@@ -1,5 +1,6 @@
 <template>
 
+
 <div @click="buttonClick">
 
 <button class="btn btn-primary">7</button>
@@ -24,9 +25,16 @@
 <button class="btn btn-primary">.</button>
 <button class="btn btn-primary">%</button>
 <button class="btn btn-primary">+</button>
+<button class="farenheit btn-primary">celsius</button>
 <button class="equals btn btn-primary">=</button>
 
+  <div>
+    <p>You chose {{ $store.getters.flavor }}</p>
+  </div>
+
 </div>
+
+
 
 </template>
 
@@ -42,6 +50,7 @@ export default {
   methods: {
 
       buttonClick: function(e){
+        
         let value = e.target.innerText;
          this.$emit('addNumber', value) 
       }
@@ -67,6 +76,13 @@ margin: 1em;
 border: none;
 background: rgb(0, 150, 50);
 padding: 1.25em 5.5em;
+}
+
+.farenheit{
+  background: orange;
+  margin: 1em 1.2em;
+  border: none;
+  padding: 1.5em 6em;
 }
 
 </style>

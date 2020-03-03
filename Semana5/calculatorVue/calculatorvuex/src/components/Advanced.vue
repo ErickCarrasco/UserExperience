@@ -37,6 +37,7 @@
 <button class="btn btn-primary">.</button>
 <button class="btn btn-primary">&#x003C0;</button>
 <button class="btn btn-primary">+</button>
+<button class="farenheit btn-primary">celsius</button>
 <button class="btn btn-primary equals">=</button>
 
 
@@ -56,6 +57,9 @@ export default {
   },
   methods: {
 
+    changed: function(event){
+      alert(event.target.value)
+    },
      buttonClick: function(e){
         let value = e.target.innerHTML;
          this.$emit('addNumber', value) 
@@ -79,5 +83,13 @@ background: #178;
 .equals {
 background: rgb(0, 150, 50);
 }
+
+.farenheit{
+  background: orange;
+  margin: 1em 1.2em;
+  border: none;
+  padding: 1.5em 6em;
+}
+
 
 </style>

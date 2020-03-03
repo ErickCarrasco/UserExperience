@@ -1,7 +1,7 @@
 <template>
 
 <div id="this">
-
+  <Form/>
   <div class="container box">
   <p> {{ mode }} </p>   
   <div class="row input-data">
@@ -14,6 +14,7 @@
   </div>
 
 <hr>
+
 
 <div class="buttons">
 
@@ -32,6 +33,7 @@
 
 import Basic from './components/Basic';
 import Advanced from './components/Advanced';
+import Form from './components/Form';
 
 export default {
 
@@ -39,7 +41,8 @@ export default {
 
   components: {
     'Basic' : Basic,
-    'Advanced' : Advanced
+    'Advanced' : Advanced,
+      Form
   },
 
   data () {
@@ -208,6 +211,11 @@ export default {
           break;          
           }
 
+          case "celsius" : {
+            this.celsius();
+            break;
+          }
+
         }
 
       }
@@ -268,7 +276,7 @@ equals: function() {
    this.current = eval(this.current);
 }
 
-  },
+},
 
 factorial: function () {
   var number = 1;
@@ -283,6 +291,11 @@ factorial: function () {
     }
     this.current = number;
   }
+},
+
+celsius: function(){
+  this.current = ((this.current-32)*(5/9)) ;
+
 },
 
 pi: function() {

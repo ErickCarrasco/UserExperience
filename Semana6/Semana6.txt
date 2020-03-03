@@ -1,0 +1,49 @@
+Back-End
+-Hay variedad de tecnologias
+	*Servidores->Aplicaciones / DB -> Fisicos
+				  	->Virtualizado
+					->contenedores-Docker (virtualizacion de aplicaciones) (optimiza el uso de hardware)(varios entornos)
+					->Serverless(XaaS)
+	--DB (relacionales y noSQL)
+	--Aplicaciones (PHP,.Net,Java,Python,Ruby,Nodejs)
+		*PHP (framework Laravel)
+		-->CMS: Content management system
+		-->WordPress(sitios web preelaborados [blogs])
+		-->Shopify
+		*Nodejs (server side)
+		*XAMP(LAMP) x:OS, A:Apache, M:Mysql, P:PHP
+
+Tarea:
+Correr un wordpress sobre un XAMP
+ExpressJS
+Firebase: funcionalidades
+Endpoint: Front, Electron, PWA, AppNativa
+
+NubeL Azure, GCC, AWS, Firebase, Digital Ocean
+Servicios Administrados
+
+Frameworks basados en Node.js
+MVC->Modelo Vista Controlador(Sinatra(enfoque minimalista, lo hacemos todo), Rails(convenciones, facilita el desarrollo))
+Full-Stack
+Rest API
+Others
+
+Endpoint http: servidor responde a servicios http. Le responde a la solicitud del cliente
+
+MongoDB -> collections: Json: Employee:{
+				id:
+				name:
+				}
+Postman
+Endpoint: API Rest-> define endpoint para transferencia de contenido
+
+Metodos de Http:
+-Post
+-Get
+-Put
+-Delete
+
+:algo ->contenido de la variable
+&-> agregar parametro
+?-> indica parametros
+/>attr1=value1&att2=value2
