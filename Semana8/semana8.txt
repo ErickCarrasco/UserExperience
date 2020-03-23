@@ -1,0 +1,23 @@
+PWA (Progressive Web Aplication)
+-Los mobile devices son mas utilizados que los computadores portatiles
+-(Android and IOs)
+
+Para crear una aplicacion para mobile
+-Nativas (Android Studio)
+-Hibridas (Apache Cordova, Adobe Phonegap) misma base de web para aplicaciones moviles, React Native
+-PWA:
+  *Instalables
+      -Uses chrome
+  *Offline
+  *Multiplatform
+  *GPS, camara,...
+
+El PWA necesita un manifest y ServiceWorker
+-Manifest: 
+ *Nombre
+ *Icon
+ *SplashScreen
+ *Aditional Metadata
+-ServiceWorker:
+ *Local server
+ *Decide que mostrar
